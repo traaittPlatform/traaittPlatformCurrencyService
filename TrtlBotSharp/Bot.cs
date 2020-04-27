@@ -176,7 +176,7 @@ namespace TrtlBotSharp
                 // Check that user has enough balance for the tip
                 if (GetBalance(Reaction.UserId) < Convert.ToDecimal(Amount) * TippableUsers.Count + tipFee)
                 {
-                    await Reaction.User.Value.SendMessageAsync(string.Format("Your balance is too low! Amount + Fee = **{0:N}** {1}",
+                    await Reaction.User.Value.SendMessageAsync(string.Format("Your balance is too low! Amount + Fee = **{0:n8}** {1}",
                         Convert.ToDecimal(Amount) * TippableUsers.Count + tipFee, coinSymbol));
                     await Message.AddReactionAsync(new Emoji(tipLowBalanceReact));
                     return;
@@ -229,7 +229,7 @@ namespace TrtlBotSharp
                 // Check that user has enough balance for the tip
                 if (GetBalance(Reaction.UserId) < Amount + tipFee)
                 {
-                    await Reaction.User.Value.SendMessageAsync(string.Format("Your balance is too low! Amount + Fee = **{0:N}** {1}",
+                    await Reaction.User.Value.SendMessageAsync(string.Format("Your balance is too low! Amount + Fee = **{0:n8}** {1}",
                         Amount + tipFee, coinSymbol));
                     await Message.AddReactionAsync(new Emoji(tipLowBalanceReact));
                 }

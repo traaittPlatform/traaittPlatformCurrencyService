@@ -56,7 +56,7 @@ namespace TrtlBotSharp
                 Hashrate /= 1000;
                 i++;
             }
-            return string.Format("{0:N} {1}", Hashrate, Units[i]);
+            return string.Format("{0:n8} {1}", Hashrate, Units[i]);
         }
 
         // Prettifies a message desription
