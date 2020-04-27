@@ -1,2 +1,3 @@
-# TrtlBotSharp
-A C# recode/reworking of Madk's ETRXCurrencyService++
+# ETRXCurrencyService
+!official download
+https://github.com/traaittPlatform/ETRXCurrencyService/releases
