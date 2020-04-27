@@ -115,11 +115,11 @@ namespace TrtlBotSharp
             // No requested command
             else
             {
-                Output += "traaittPlatform ETRX Currency Service:\n";
+                Output += "traaittPlatform Currency Service:\n";
                 Output += "    \n";
                 Output += "Informational:\n";
                 Output += "  help\tLists all available commands\n";
-                Output += "  faucet\tGives faucet information\n";
+//                Output += "  faucet\tGives faucet information\n";
                 Output += "    \n";
                 Output += "Network:\n";
                 Output += "  hashrate\tGives current network hashrate\n";
@@ -129,7 +129,7 @@ namespace TrtlBotSharp
                 Output += "    \n";
                 if (Context.Guild == null || !TrtlBotSharp.marketDisallowedServers.Contains(Context.Guild.Id))
                 {
-                    Output += "Market:\n";
+                    Output += "Market: enabled soon\n";
                     Output += "  price\tGives current price\n";
                     Output += "  mcap\tGives current global marketcap\n";
                     Output += "    \n";

@@ -27,7 +27,7 @@ namespace TrtlBotSharp
                 // Get wallet address
                 string Address = "";
                 if (!GetRedirect(UID)) Address = GetAddress(UID);
-                else Address = tipDefaultAddress;8
+                else Address = tipDefaultAddress;
 
                 // Add to transfer list
                 Transfers.Add(new JObject()
