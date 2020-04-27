@@ -1,0 +1,36 @@
+{
+  "databaseFile": "ETRX.db",
+  "logLevel": 2,
+  "botToken": "NjYxNjQ2ODQwODEwNDM4Nzcw.XqYWeA.6uwSYHcVL8IbMN_rIXtvhsmiPbg",
+  "botPrefix": "!",
+  "botMessageCache": 100,
+  "coinName": "traaittPlatform",
+  "coinSymbol": "ETRX",
+  "coinUnits": 100000000,
+  "coinAddressLength": 101,
+  "coinAddressPrefix": "ETRX",
+  "tipFee": 0.0000001,
+  "tipMixin": 3,
+  "tipSuccessReact": "💸",
+  "tipFailedReact": "🆘",
+  "tipLowBalanceReact": "❌",
+  "tipJoinReact": ":tip:",
+  "tipCustomReacts": {
+    "💸": 0.00001447
+},
+  "faucetHost": "https://faucet.trtl.me/",
+  "faucetEndpoint": "https://faucet.trtl.me/balance",
+  "faucetAddress": "TRTLv2oecJvd3299JPv78BMEqCeQAMtdoB85r1d5dfVFeGG7f83LB58i4gxsthLtWpD2QijVTmgbHhhC1QvJ2ABRea4VedLmqX8",
+  "marketSource": "Unnamed.Exchange",
+  "marketEndpoint": "https://api.unnamed.exchange/v1/Public/Ticker?market=ETRX_BTC",
+  "marketBTCEndpoint": "https://www.bitstamp.net/api/ticker/",
+  "marketDisallowedServers": [
+    388915017187328002
+  ],
+  "daemonHost": "127.0.0.1",
+  "daemonPort": 24496,
+  "walletHost": "127.0.0.1",
+  "walletPort": 8447,
+  "walletRpcPassword": "12345",
+  "walletUpdateDelay": 500
+}
